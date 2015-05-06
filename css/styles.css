@@ -6,55 +6,55 @@
  */
 
 * {
-	background-color: #ECCEF5;
-	box-sizing: border-box;
-	margin: 0;
-	padding: 0;
+    background-color: #ECCEF5;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 
 /***** ----- Header ----- *****/
 
 header {
-	background-color: #fff;
-	height: 50px;
-	width: 960px;
+    background-color: #fff;
+    height: 50px;
+    width: 960px;
 }
 
 header li {
-	background-color: #fff;
-	border-right: 1px solid #000;
-	color: #000;
-	float: left;
-	font-family: Arial;
-	margin-top: 15px;
-	padding: 0 15px 0 15px;
-	list-style-type: none;
+    background-color: #fff;
+    border-right: 1px solid #000;
+    color: #000;
+    float: left;
+    font-family: Arial;
+    margin-top: 15px;
+    padding: 0 15px 0 15px;
+    list-style-type: none;
 }
 
 header li:last-child {
-	border-right: 0px;
-	padding-right: 0px;
+    border-right: 0px;
+    padding-right: 0px;
 }
 
 header a {
-	background-color: #fff;
-	color: #000;
-	text-decoration: none;
+    background-color: #fff;
+    color: #000;
+    text-decoration: none;
 }
 
 a:hover {
-	color: #8A0886;
+    color: #8A0886;
 }
 
 header img {
-	background-color: #fff;
-	float: right;
-	padding: 15px 15px 0 0;
+    background-color: #fff;
+    float: right;
+    padding: 15px 15px 0 0;
 }
 
 #container {
-	background-color: #ffffff;
-	margin: 0 auto;
-	width: 960px;
+    background-color: #ffffff;
+    margin: 0 auto;
+    width: 960px;
 }
