@@ -21,25 +21,29 @@ header {
     width: 960px;
 }
 
+header ul {
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
 header li {
     background-color: #fff;
     border-right: 1px solid #000;
     color: #000;
     float: left;
     font-family: Arial;
-    margin-top: 15px;
-    padding: 0 15px 0 15px;
     list-style-type: none;
 }
 
 header li:last-child {
     border-right: 0px;
-    padding-right: 0px;
 }
 
 header a {
     background-color: #fff;
     color: #000;
+    float: left;
+    padding: 0 15px 0 15px;
     text-decoration: none;
 }
 
