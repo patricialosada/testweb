@@ -62,8 +62,25 @@ header img {
     padding: 15px 15px 0 0;
 }
 
-/***** ----- Banner ----- *****/
+
+/***** ----- Content ----- *****/
+
+.content {
+    margin: 20px 0;
+}
 
 .banner {
-    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.block {
+    background-color: #fff;
+    float: left;
+    margin-right: 20px;
+    width: 350px;
+}
+
+.block-large {
+    margin-right: 0;
+    width: 590px;
 }
