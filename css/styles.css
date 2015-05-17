@@ -69,6 +69,8 @@ header img {
 
 .content {
     margin: 20px 0;
+    overflow: auto;
+    zoom: 1;
 }
 
 .banner {
@@ -120,4 +122,105 @@ header img {
 .block-large img {
     float: right;
     margin-top: 15px;
+}
+
+
+/***** ----- Footer ----- *****/
+
+footer {
+    background-color: #fff;
+    overflow: auto;
+    padding: 20px 15px 15px 15px;
+    zoom: 1;
+}
+
+footer h3 {
+    border-bottom: 1px solid #000;
+    font-weight: normal;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+} 
+
+footer a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #8A0886;
+    text-decoration: underline;
+}
+
+footer ul {
+    float: left;
+}
+
+footer li {
+    list-style-type: none;
+    padding: 2px;
+}
+
+footer .info,
+footer .info ul {
+    float: left;
+    width: 50%;
+}
+
+footer .info ul li:first-child {
+    padding: 0;
+}
+
+footer .info ul h3 {
+    margin-right: 20px;
+}
+
+.subscribe {
+    float: right;
+    width: 50%;
+}
+
+.subscribe input {
+    float: left;
+}
+
+.subscribe input[type="text"] {
+    border: 1px solid #000;
+    padding: 10px;
+    margin-right: 20px;
+    width: 50%;
+}
+
+.subscribe input[type="submit"] {
+    background-color: #ECCEF5;
+    border: 1px solid #8A0886;
+    color: #8A0886;
+    cursor: pointer;
+    padding: 10px;
+    width: 135px;
+}
+
+.subscribe input[type="checkbox"] {
+    margin: 1px 5px 0 0;
+}
+
+.subscribe form p {
+    clear: left;
+    float: left;
+    margin-top: 10px;
+    width: 100%;
+}
+
+.subscribe form p a {
+    text-decoration: underline;
+}
+
+.subscribe p {
+    margin-bottom: 15px;
+}
+
+.copyright {
+    float: left;
+    font-size: smaller;
+    margin-top: 55px;
+    width: 100%;
 }
